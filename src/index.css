@@ -13,3 +13,15 @@ font-family: "Fredoka", sans-serif;
     @apply !text-[62.5%] scroll-smooth;
   }
 }
+
+/* Navbar */
+
+.nav-links {
+  @apply text-[1.6rem] text-dark-light capitalize font-medium duration-75 transition-all hover:text-dark;
+}
+.mb-nav-links {
+  @apply nav-links !text-[#3B5266];
+}
+.active {
+  @apply text-[#3B5266] md:text-dark font-bold;
+}
