@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+font-family: "Inter", sans-serif;
+font-family: "Fredoka", sans-serif;
+*/
+
+@layer {
+  html {
+    @apply !text-[62.5%] scroll-smooth;
+  }
+}
