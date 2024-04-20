@@ -13,7 +13,9 @@ font-family: "Fredoka", sans-serif;
     @apply !text-[62.5%] scroll-smooth;
   }
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 /* Navbar */
 
 .nav-links {

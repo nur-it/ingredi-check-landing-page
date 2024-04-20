@@ -1,7 +1,9 @@
+import HomeBanner from "../components/screen/Home/HomeBanner";
+
 const Home = () => {
   return (
     <>
-      <div className="h-screen bg-green">Home</div>
+      <HomeBanner />
     </>
   );
 };
