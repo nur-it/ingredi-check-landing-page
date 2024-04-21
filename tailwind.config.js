@@ -40,6 +40,9 @@ export default {
           xl: "1280px",
         },
       },
+      borderRadius: {
+        complete: "50%",
+      },
     },
   },
   plugins: [],

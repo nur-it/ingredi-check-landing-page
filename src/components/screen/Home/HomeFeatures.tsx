@@ -1,13 +1,14 @@
 import { featuresData, FeaturesDataType } from "../../../data/featuresData";
+import SectionHeading from "../../common/SectionHeading";
 
 const HomeFeatures = () => {
   return (
     <section className="bg-[url(/bgs/featuresBg.svg)] bg-no-repeat bg-cover pt-[10rem] pb-[13.2rem] md:pb-[27rem]">
       <div className="container">
-        <h2 className="font-fredoka font-semibold text-white text-center text-[4rem]">
-          Features at Your Fingertips
-        </h2>
-        <ul className="mt-[4rem] md:mt-[8rem] flex flex-wrap justify-between gap-y-[2.4rem]">
+        <div className="text-white">
+          <SectionHeading headign="Features at Your Fingertips" />
+        </div>
+        <ul className="mt-[4rem] md:mt-[8rem] flex flex-wrap justify-between gap-y-[1.6rem] md:gap-y-[2.4rem]">
           {featuresData.map((item: FeaturesDataType) => {
             return (
               <li

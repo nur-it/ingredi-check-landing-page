@@ -51,6 +51,9 @@ const HomeBanner = () => {
           </div>
         </div>
       </div>
+      <div className="absolute bottom-0 w-full">
+        <img src="./bgs/Exclude.svg" alt="" className="w-full" />
+      </div>
     </section>
   );
 };
