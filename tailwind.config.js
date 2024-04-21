@@ -14,6 +14,7 @@ export default {
           extraLight: "#F2FFCD",
           btnText: "#047d48",
           btnBg: "#F3FFF7",
+          linear: "#96CB02",
         },
         dark: {
           DEFAULT: "#4F5449",

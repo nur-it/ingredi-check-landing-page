@@ -1,6 +1,7 @@
 import HomeAbout from "../components/screen/Home/HomeAbout";
 import HomeBanner from "../components/screen/Home/HomeBanner";
 import HomeFeatures from "../components/screen/Home/HomeFeatures";
+import HomeNewFeatures from "../components/screen/Home/HomeNewFeatures";
 import HomeSlider from "../components/screen/Home/HomeSlider";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <HomeAbout />
       <HomeFeatures />
       <HomeSlider />
+
       <div className="mb-[50rem]"></div>
     </>
   );
