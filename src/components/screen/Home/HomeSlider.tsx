@@ -22,9 +22,8 @@ const HomeSlider = () => {
     sliderRef.current.swiper.slideNext();
   }, []);
   return (
-    <section className="bg-[url(/bgs/lineBg.svg)] bg-cover pb-[8rem] bg-no-repeat">
+    <section className="pb-[8rem] bg-no-repeat">
       <div className="container relative  top-[-10.7rem] ">
-        {/* <div className="absolute top-[-10.7rem] w-full flex items-center justify-center md:justify-[unset] gap-[2.4rem]"> */}
         <div className=" w-full flex items-center justify-center md:justify-[unset] gap-[2.4rem]">
           <div
             className="hidden md:flex w-[4.8rem] h-[4.8rem] items-center justify-center cursor-pointer transition-all duration-150 text-[#7E8379] rounded-complete hover:text-white hover:bg-black text-[2rem] "
@@ -41,6 +40,7 @@ const HomeSlider = () => {
                 delay: 5000,
                 disableOnInteraction: true,
               }}
+              loop
               modules={[Autoplay, EffectFade]}
               // effect="fade"
               scrollbar={{ draggable: true }}
