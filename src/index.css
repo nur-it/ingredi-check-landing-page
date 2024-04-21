@@ -12,6 +12,9 @@ font-family: "Fredoka", sans-serif;
   html {
     @apply !text-[62.5%] scroll-smooth;
   }
+  bodY {
+    @apply font-inter;
+  }
 }
 ::-webkit-scrollbar {
   display: none;

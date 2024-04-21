@@ -4,11 +4,16 @@ export default {
   theme: {
     extend: {
       colors: {
+        orang: {
+          DEFAULT: "#F8B42E",
+        },
         green: {
           DEFAULT: "#8DB511",
           light: "#789D0E",
           dark: "#4B6A0A",
           extraLight: "#F2FFCD",
+          btnText: "#047d48",
+          btnBg: "#F3FFF7",
         },
         dark: {
           DEFAULT: "#4F5449",

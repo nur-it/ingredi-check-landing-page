@@ -2,7 +2,7 @@ import appStore from "../../../assets/images/i/appStore.png";
 import googlePlay from "../../../assets/images/i/googlePlay.png";
 const HomeBanner = () => {
   return (
-    <section className="bg-[url(/bgs/homeBanner.webp)] bg-no-repeat border bg-cover relative h-screen overflow-hidden">
+    <section className="bg-[url(/bgs/homeBannerTemp.webp)] bg-no-repeat border bg-cover relative h-screen overflow-hidden">
       {/* <figure className="-z-10 absolute top-[8.6rem] left-0 w-full">
         <img className="w-full" src="/bgs/homeBanner.webp" alt="homeBanner" />
       </figure> */}
