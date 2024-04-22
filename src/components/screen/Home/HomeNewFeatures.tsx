@@ -4,7 +4,7 @@ import SectionHeading from "../../common/SectionHeading";
 const HomeNewFeatures = () => {
   return (
     <>
-      <section className="mt-[5.6rem] md:mt-[8rem]">
+      <section className="md:mt-[8rem]">
         <div className="container">
           <div className="text-green-dark">
             <SectionHeading headign="New Features Coming Soon" />

@@ -2,7 +2,7 @@ import goldEllipse from "../../../assets/images/i/goldEllipse.svg";
 import SectionHeading from "../../common/SectionHeading";
 const HomePricing = () => {
   return (
-    <section className="relative bg-[url(./bgs/goldBg.svg)] bg-no-repeat bg-cover">
+    <section className="h-screen md:h-auto relative bg-[url(./bgs/goldBg.svg)] bg-no-repeat bg-cover flex items-center justify-center">
       <img
         src={goldEllipse}
         alt="gold ellips"
@@ -12,7 +12,7 @@ const HomePricing = () => {
         <div className="text-green-dark">
           <SectionHeading headign="Pricing" />
         </div>
-        <div className="mt-[3.2rem] md:mt-[7.6rem] py-[8rem] h-[40.6rem] bg-white w-[80%] mx-auto rounded-[2rem]">
+        <div className="mt-[3.2rem] md:mt-[7.6rem] py-[8rem] px-[3.2rem] h-[48.5rem] md:h-[40.6rem] bg-white w-[99%] md:w-[80%] mx-auto rounded-[2rem]">
           <div className="max-w-[67.3rem] mx-auto">
             <div className="text-dark-dark2">
               <SectionHeading headign="Coming Soon" />
