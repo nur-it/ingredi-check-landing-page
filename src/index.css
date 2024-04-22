@@ -14,7 +14,7 @@ font-family: "Fredoka", sans-serif;
     /* 1rem = 10px */
   }
   bodY {
-    @apply font-inter bg-white bg-[url(/bgs/lineBg.svg)];
+    @apply font-inter bg-orang/20 bg-[url(/bgs/lineBg.svg)];
   }
 }
 ::-webkit-scrollbar {

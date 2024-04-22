@@ -42,7 +42,7 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className="mt-[6.4rem] md:mt-[8rem] pt-[4rem] md:pt-[6.4rem] border-t flex items-center justify-between text-[1.8rem] flex-col-reverse md:flex-row">
+        <div className="mt-[6.4rem] md:mt-[8rem] pt-[4rem] md:pt-[6.4rem] border-t border-dark flex items-center justify-between text-[1.8rem] flex-col-reverse md:flex-row">
           <p className="text-dark w-[23.8rem] md:w-auto text-center mt-[2.4rem] md:mt-0">
             Copyright © 2024 Ingredicheck All Rights Reserved
           </p>
