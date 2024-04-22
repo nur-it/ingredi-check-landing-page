@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../../assets/images/ingredCheckLogo.svg";
 import menuIcon from "../../../assets/images/i/Menubar.svg";
 import crossIcon from "../../../assets/images/i/times.svg";
@@ -17,9 +17,11 @@ const Navbar = () => {
       <nav className="h-[6.4rem] md:h-[8.6rem] bg-white py-[2rem] md:py-[1.6rem]">
         <div className="container">
           <div className="flex items-center justify-between">
-            <figure className="w-[10rem] md:w-[13.6rem]">
-              <img src={logo} alt="ingrediCheck" className="w-full" />
-            </figure>
+            <Link to="/">
+              <figure className="w-[10rem] md:w-[13.6rem]">
+                <img src={logo} alt="ingrediCheck" className="w-full" />
+              </figure>
+            </Link>
             {/* Desktop navitems start */}
             <ul className="hidden md:flex items-center gap-[3.3rem] font-inter text-[1.6rem]">
               {navigationData.map((item: navigationDataType) => {

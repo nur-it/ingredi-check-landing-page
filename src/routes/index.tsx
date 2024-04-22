@@ -4,11 +4,13 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import TramsAndCondition from "../pages/TramsAndCondition";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
+import ErrorPage from "../pages/ErrorPage";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
