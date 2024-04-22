@@ -14,7 +14,7 @@ const HomeNewFeatures = () => {
               return (
                 <li
                   key={item.id}
-                  className="flex-1 bg-dark-dark2 relative rounded-[2rem] py-[2.4rem] ps-[5rem] "
+                  className="flex-1 bg-dark-dark2 relative rounded-[2rem] py-[2.4rem] ps-[2.4rem] md:ps-[5rem] h-[20rem] md:h-auto"
                 >
                   <h4 className="bg-[linear-gradient(281.71deg,_#96CB02_16.78%,_#FAB222_73.53%)] inline-block text-transparent bg-clip-text font-bold text-[1.746rem] md:text-[2.4rem]">
                     {item.title}
@@ -25,7 +25,7 @@ const HomeNewFeatures = () => {
                   <img
                     src={item.bg}
                     alt="new Features"
-                    className="absolute right-0 top-0"
+                    className="absolute right-0 top-0 w-[14.4rem] md:w-auto"
                   />
                 </li>
               );

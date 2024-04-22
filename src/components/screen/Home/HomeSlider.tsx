@@ -27,7 +27,7 @@ const HomeSlider = () => {
   }, []);
   return (
     <section className="pb-[8rem] bg-no-repeat">
-      <div className="container relative  top-[-10.7rem] ">
+      <div className=" relative  top-[-10.7rem] ">
         <div className=" w-full flex items-center justify-center md:justify-[unset] gap-[2.4rem]">
           <div
             className="hidden md:flex w-[4.8rem] h-[4.8rem] items-center justify-center cursor-pointer transition-all duration-150 text-[#7E8379] rounded-complete hover:text-white hover:bg-black text-[2rem] "
@@ -35,7 +35,7 @@ const HomeSlider = () => {
           >
             <TfiAngleLeft />
           </div>
-          <div className="w-[85%]">
+          <div className="w-[90%] md:w-[85%]">
             <Swiper
               ref={sliderRef}
               slidesPerView={1}
@@ -56,12 +56,12 @@ const HomeSlider = () => {
                       <div className="text-green-dark">
                         <SectionHeading headign="Real Stories, Real Solutions" />
                       </div>
-                      <div className="mt-[1.9rem] md:mt-[4.1rem] flex items-center justify-between flex-col-reverse md:flex-row">
-                        <div className="md:w-[40%] mt-[3.1rem] md:mt-0">
+                      <div className="mt-[1.9rem] md:mt-[4.1rem] flex lg:items-center justify-between flex-col-reverse lg:flex-row">
+                        <div className="lg:w-[40%] mt-[3.1rem] lg:mt-0">
                           <h4 className="font-fredoka font-semibold text-dark-dark2 text-[1.6rem] md:text-[3.6rem]">
                             Geeta's Unique Diet {i}
                           </h4>
-                          <p className="mt-[1rem] md:mt-[2.2rem] text-dark-dark2 text-[1.4rem] md:text-[1.8rem] leading-[1.8rem] md:leading-[3rem] max-w-[37.1rem]">
+                          <p className="mt-[1rem] md:mt-[2.2rem] text-dark-dark2 text-[1.4rem] md:text-[1.8rem] leading-[1.8rem] md:leading-[3rem] lg:max-w-[37.1rem]">
                             Following the Jain diet, Geeta avoids a variety of
                             common foods, including root vegetables. With her
                             dietary preferences saved in IngrediCheck, exploring

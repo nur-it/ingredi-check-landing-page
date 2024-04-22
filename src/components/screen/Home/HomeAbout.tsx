@@ -10,7 +10,7 @@ import HomeAboutTextBox from "../../common/Home/HomeAboutTextBox";
 const HomeAbout = () => {
   return (
     <>
-      <section className="relative pb-[15rem] md:pb-[20.7rem]">
+      <section className="mt-[5.6rem] md:mt-0 relative pb-[15rem] md:pb-[20.7rem]">
         <div className="container lg:p-[8rem]">
           {/* 1st start */}
           <div className="flex items-center justify-between flex-col md:flex-row gap-[3.2rem] md:gap-0">

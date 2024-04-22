@@ -2,7 +2,7 @@ import goldEllipse from "../../../assets/images/i/goldEllipse.svg";
 import SectionHeading from "../../common/SectionHeading";
 const HomePricing = () => {
   return (
-    <section className="h-screen md:h-auto relative bg-[url(/bgs/goldBg.svg)] bg-no-repeat bg-cover flex items-center justify-center">
+    <section className="h-[150vh] md:h-[180vh] lg:h-auto lg:pb-[20rem] relative bg-[url(/bgs/goldBg.svg)] bg-no-repeat bg-cover flex items-center justify-center">
       <img
         src={goldEllipse}
         alt="gold ellips"
@@ -17,7 +17,7 @@ const HomePricing = () => {
             <div className="text-dark-dark2">
               <SectionHeading headign="Coming Soon" />
             </div>
-            <div className="text-[1.8rem] mt-[2.4rem] text-dark-dark2 leading-[3.4rem]">
+            <div className="text-[1.4rem] sm:text-[1.8rem] mt-[2.4rem] text-dark-dark2 leading-[3.4rem]">
               <p>
                 We are finalizing IngrediCheck's pricing to ensure it remains
                 accessible and affordable. Please stay tuned for updates!
