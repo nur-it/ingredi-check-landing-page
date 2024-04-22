@@ -2,10 +2,7 @@ import appStore from "../../../assets/images/i/appStore.png";
 import googlePlay from "../../../assets/images/i/googlePlay.png";
 const HomeBanner = () => {
   return (
-    <section className="bg-[url(/bgs/homeBannerTemp.webp)] bg-no-repeat border bg-cover relative overflow-hidden">
-      {/* <figure className="-z-10 absolute top-[8.6rem] left-0 w-full">
-        <img className="w-full" src="/bgs/homeBanner.webp" alt="homeBanner" />
-      </figure> */}
+    <section className="bg-[url(/bgs/homeBannerTemp.webp)] bg-no-repeat bg-cover relative overflow-hidden">
       <div className="container">
         <div className="flex flex-col md:flex-row items-center  justify-center pt-[4.4rem] md:pt-[10.8rem] gap-[4rem] md:gap-0">
           <div className="relative md:translate-x-[45%] md:translate-y-[-50%] ">
@@ -50,6 +47,9 @@ const HomeBanner = () => {
             </figure>
           </div>
         </div>
+      </div>
+      <div className="absolute  -bottom-[.1%] w-full">
+        <img src="/bgs/Exclude.svg" alt="ingrediCheck" className="w-full" />
       </div>
     </section>
   );
