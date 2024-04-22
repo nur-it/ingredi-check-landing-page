@@ -26,7 +26,6 @@ export default {
           DEFAULT: "#FFFFFF",
           text: "#EBECE9",
           dark: "#B9BCB6",
-          dark2: "#B9BCB6",
         },
       },
       fontFamily: {
