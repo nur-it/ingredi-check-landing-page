@@ -1,5 +1,5 @@
-import appStore from "../../../assets/images/i/appStore.png";
-import googlePlay from "../../../assets/images/i/googlePlay.png";
+import appStore from "../../../assets/images/i/appStore.svg";
+import googlePlay from "../../../assets/images/i/googlePlay.svg";
 const HomeBanner = () => {
   return (
     <section className="bg-[url(/bgs/homeBannerTemp.webp)] bg-no-repeat bg-cover relative overflow-hidden">
@@ -40,7 +40,7 @@ const HomeBanner = () => {
           <div>
             <figure className="">
               <img
-                src="/bgs/homeMobileTemp.svg"
+                src="/bgs/homeMobileTemp.png"
                 alt="ingrediCheck"
                 className="w-full"
               />

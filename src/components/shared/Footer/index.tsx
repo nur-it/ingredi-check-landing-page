@@ -10,9 +10,9 @@ const Footer = () => {
   return (
     <section className="bg-dark-dark2 rounded-t-[4rem] md:rounded-t-[8rem] pt-[6.4rem] pb-[4.1rem] md:pt-[8rem] md:pb-[6.4rem] mt-[14.4rem] lg:mt-[25rem]">
       <div className="container">
-        <div className="max-w-[50rem] mx-auto flex flex-col items-center gap-[3.2rem] md:gap-[4rem]">
+        <div className=" mx-auto flex flex-col items-center gap-[3.2rem] md:gap-[4rem]">
           <img src={ingredCheckLogoWhite} alt="ingredCheck" />
-          <ul className="flex items-center w-full flex-col md:flex-row gap-[2.4rem] md:gap-[4rem]">
+          <ul className="flex items-center justify-center w-full flex-col md:flex-row gap-[2.4rem] md:gap-[4rem]">
             {navigationData.map((item: navigationDataType) => {
               return (
                 <li className="nav-links w-[14rem] text-center" key={item.id}>
@@ -25,7 +25,7 @@ const Footer = () => {
                 </li>
               );
             })}
-            <li className="nav-links">
+            <li className="nav-links w-[14rem] text-center ">
               <Link to="#" className="text-light-dark font-semibold">
                 Download APP
               </Link>

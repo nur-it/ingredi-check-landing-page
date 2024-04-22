@@ -2,7 +2,7 @@ import goldEllipse from "../../../assets/images/i/goldEllipse.svg";
 import SectionHeading from "../../common/SectionHeading";
 const HomePricing = () => {
   return (
-    <section className="h-screen md:h-auto relative bg-[url(./bgs/goldBg.svg)] bg-no-repeat bg-cover flex items-center justify-center">
+    <section className="h-screen md:h-auto relative bg-[url(/bgs/goldBg.svg)] bg-no-repeat bg-cover flex items-center justify-center">
       <img
         src={goldEllipse}
         alt="gold ellips"
