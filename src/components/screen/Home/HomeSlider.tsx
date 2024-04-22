@@ -35,7 +35,7 @@ const HomeSlider = () => {
           >
             <TfiAngleLeft />
           </div>
-          <div className="w-[90%]">
+          <div className="w-[85%]">
             <Swiper
               ref={sliderRef}
               slidesPerView={1}
