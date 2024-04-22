@@ -118,10 +118,10 @@ const HomeAbout = () => {
           </div>
           {/* 2nd end */}
         </div>
-        <div className="absolute bottom-0 w-full">
+        <div className="absolute -bottom-[.1%] sm:bottom-0 w-full">
           <img src="/bgs/ExcludeTwo.svg" alt="exclude" className="w-full" />
           <img
-            className="absolute left-[50%] top-[-50%] md:top-[-25%]  translate-x-[-50%] w-[20.7rem] md:w-[59.8rem]"
+            className="absolute left-[50%] top-[-50%] md:top-[-25%]  translate-x-[-50%] w-[20.7rem] md:w-[30rem] lg:w-[37.8rem] xl:w-[37.8rem] 2xl:w-[59.8rem]"
             src={meals}
             alt="meals"
           />

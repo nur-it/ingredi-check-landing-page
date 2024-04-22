@@ -48,9 +48,18 @@ const HomeBanner = () => {
           </div>
         </div>
       </div>
-      {/* <div className="absolut -bottom-[.1%] w-full">
-        <img src="/bgs/ExcludeTemp.svg" alt="ingrediCheck" className="w-full" />
-      </div> */}
+      <div className="absolute -bottom-[.1%] w-full">
+        <img
+          className="absolute w-full"
+          src="/bgs/ExcludeTemp.svg"
+          alt="ingrediCheck"
+        />
+        <img
+          src="/bgs/ExcludeWhite.svg"
+          alt="ingrediCheck"
+          className="w-full"
+        />
+      </div>
     </section>
   );
 };
