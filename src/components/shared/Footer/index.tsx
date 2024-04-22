@@ -1,31 +1,32 @@
 import { Link } from "react-router-dom";
 import ingredCheckLogoWhite from "../../../assets/images/ingredCheckLogoWhite.svg";
 import { FaTwitter, FaTelegramPlane } from "react-icons/fa";
+import {
+  navigationData,
+  navigationDataType,
+} from "../../../data/navigationData";
 
 const Footer = () => {
   return (
-    <section className="bg-dark-dark2 rounded-t-[4rem] md:rounded-t-[8rem] pt-[6.4rem] pb-[4.1rem] md:pt-[8rem] md:pb-[6.4rem] lg:mt-[25rem]">
+    <section className="bg-dark-dark2 rounded-t-[4rem] md:rounded-t-[8rem] pt-[6.4rem] pb-[4.1rem] md:pt-[8rem] md:pb-[6.4rem] mt-[14.4rem] lg:mt-[25rem]">
       <div className="container">
         <div className="max-w-[50rem] mx-auto flex flex-col items-center gap-[3.2rem] md:gap-[4rem]">
           <img src={ingredCheckLogoWhite} alt="ingredCheck" />
-          <ul className="flex items-center justify-between w-full flex-col md:flex-row gap-[2.4rem] md:gap-0">
+          <ul className="flex items-center w-full flex-col md:flex-row gap-[2.4rem] md:gap-[4rem]">
+            {navigationData.map((item: navigationDataType) => {
+              return (
+                <li className="nav-links w-[14rem] text-center" key={item.id}>
+                  <Link
+                    to={item.link}
+                    className="text-light-dark font-semibold"
+                  >
+                    {item.title}
+                  </Link>
+                </li>
+              );
+            })}
             <li className="nav-links">
-              <Link to="/" className="text-light-dark">
-                Home
-              </Link>
-            </li>
-            <li className="nav-links">
-              <Link to="/about" className="text-light-dark">
-                About
-              </Link>
-            </li>
-            <li className="nav-links">
-              <Link to="/contact" className="text-light-dark">
-                Contact
-              </Link>
-            </li>
-            <li className="nav-links">
-              <Link to="#" className="text-light-dark">
+              <Link to="#" className="text-light-dark font-semibold">
                 Download APP
               </Link>
             </li>
@@ -46,8 +47,8 @@ const Footer = () => {
             Copyright © 2024 Ingredicheck All Rights Reserved
           </p>
           <div className="font-semibold text-light-dark flex gap-[2.4rem] md:gap-[3.8rem] flex-col md:flex-row text-center">
-            <Link to="#">Terms & Conditions</Link>
-            <Link to="#">Privacy Policy</Link>
+            <Link to="/trams-condition">Terms & Conditions</Link>
+            <Link to="/privacy-policy">Privacy Policy</Link>
           </div>
         </div>
       </div>

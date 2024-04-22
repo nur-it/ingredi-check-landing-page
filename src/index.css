@@ -13,7 +13,7 @@ font-family: "Fredoka", sans-serif;
     @apply !text-[62.5%] scroll-smooth;
   }
   bodY {
-    @apply font-inter bg-[url(./bgs/lineBg.svg)];
+    @apply font-inter bg-white bg-[url(./bgs/lineBg.svg)];
   }
 }
 ::-webkit-scrollbar {
