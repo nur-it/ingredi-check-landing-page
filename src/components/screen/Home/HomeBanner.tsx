@@ -2,7 +2,7 @@ import appStore from "../../../assets/images/i/appStore.svg";
 import googlePlay from "../../../assets/images/i/googlePlay.svg";
 const HomeBanner = () => {
   return (
-    <section className="bg-[url(/bgs/homeBannerTemp.webp)] bg-no-repeat bg-cover bg-center relative overflow-hidden">
+    <section className="bg-[url(/bgs/homeBannerTemp.jpg)] bg-no-repeat bg-cover bg-center relative overflow-hidden">
       <div className="container">
         <div className="flex flex-col md:flex-row items-center  justify-center pt-[4.4rem] md:pt-[10.8rem] gap-[4rem] md:gap-0">
           <div className="relative md:translate-x-[45%] md:translate-y-[-50%] ">
@@ -33,7 +33,7 @@ const HomeBanner = () => {
             <img
               src="/bgs/banenrBgArrow.svg"
               alt="I"
-              className="absolute top-[50%] -translate-y-[180%] right-0 hidden md:inline-block"
+              className="absolute top-[50%] -translate-y-[180%] right-[-30%] hidden  lg:inline-block"
             />
           </div>
 

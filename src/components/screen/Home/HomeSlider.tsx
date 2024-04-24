@@ -27,7 +27,7 @@ const HomeSlider = () => {
   }, []);
   return (
     <section className="md:pb-[8rem] bg-no-repeat">
-      <div className=" relative  top-[-10.7rem] ">
+      <div className="container relative  top-[-10.7rem] ">
         <div className=" w-full flex items-center justify-center md:justify-[unset] gap-[2.4rem]">
           <div
             className="hidden md:flex w-[4.8rem] h-[4.8rem] items-center justify-center cursor-pointer transition-all duration-150 text-[#7E8379] rounded-complete hover:text-white hover:bg-black text-[2rem] "
@@ -68,8 +68,12 @@ const HomeSlider = () => {
                             new foods is no longer a gamble.
                           </p>
                         </div>
-                        <figure>
-                          <img src={sliderImg1} alt="slider 1" />
+                        <figure className="md:max-w-[47.2rem]">
+                          <img
+                            src={sliderImg1}
+                            alt="slider 1"
+                            className="w-full"
+                          />
                         </figure>
                       </div>
                     </div>
