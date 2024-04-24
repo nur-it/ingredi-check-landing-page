@@ -26,7 +26,7 @@ const HomeSlider = () => {
     sliderRef.current.swiper.slideNext();
   }, []);
   return (
-    <section className="pb-[8rem] bg-no-repeat">
+    <section className="md:pb-[8rem] bg-no-repeat">
       <div className=" relative  top-[-10.7rem] ">
         <div className=" w-full flex items-center justify-center md:justify-[unset] gap-[2.4rem]">
           <div
