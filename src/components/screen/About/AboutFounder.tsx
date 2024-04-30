@@ -1,4 +1,4 @@
-// import founderImage from "../../../assets/images/founderImage/founderImage.png";
+import founderImage from "../../../assets/images/founderImage/founderImage.png";
 const AboutFounder = () => {
   return (
     <section>
@@ -10,12 +10,12 @@ const AboutFounder = () => {
             </h2>
           </div>
           <div className="text-center">
-            <div className="w-[12rem] h-[12rem] md:w-[15.5rem] md:h-[15.5rem] rounded-full mx-auto bg-[linear-gradient(281.71deg,_#96CB02_16.78%,_#FAB222_73.53%)]">
-                {/* <img src={} alt=""  className="w-[10.5rem] h-[10.5rem] md:w-[13.5rem] md:h-[13.5rem] rounded-full"/> */}
-            </div>
-            {/* <div>
-              <img src={founderImage} alt="founderImage" className="mx-auto" />
+            {/* <div className="w-[12rem] h-[12rem] md:w-[15.5rem] md:h-[15.5rem] rounded-full mx-auto bg-[linear-gradient(281.71deg,_#96CB02_16.78%,_#FAB222_73.53%)]">
+                <img src={} alt=""  className="w-[10.5rem] h-[10.5rem] md:w-[13.5rem] md:h-[13.5rem] rounded-full"/>
             </div> */}
+            <div>
+              <img src={founderImage} alt="founderImage" className="mx-auto" />
+            </div>
             <p>
               <span className="font-bold">Sanket Patel</span>, Founder of
               IngrediCheck{" "}
