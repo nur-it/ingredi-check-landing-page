@@ -8,7 +8,7 @@ const AboutMission = () => {
               Our Mission: Simplifying Your Grocery Shopping
             </h2>
           </div>
-          <div className="[&_p]:text-dark [&_p]:mt-[2.17rem] [&_p]:md:mt-[3.2rem] [&_p]:text-[1.4rem] [&_p]:md:text-[2rem] [&_p]:leading-[2.02rem] [&_p]:md:leading-[3.2rem]">
+          <div className="[&_p]:text-dark [&_p]:font-inter [&_p]:mt-[2.17rem] [&_p]:md:mt-[3.2rem] [&_p]:text-[1.4rem] [&_p]:md:text-[2rem] [&_p]:leading-[2.02rem] [&_p]:md:leading-[3.2rem]">
             <p>
               I created IngrediCheck out of a personal need that hit close to
               home. Imagine this: You're at the grocery store with your family,

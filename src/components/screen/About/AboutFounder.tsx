@@ -11,7 +11,7 @@ const AboutFounder = () => {
             </h2>
           </div>
           <div className="text-center">
-            <div className="w-[12rem] h-[12rem] md:w-[15.5rem] md:h-[15.5rem] flex justify-center items-center rounded-full mx-auto bg-[linear-gradient(281.71deg,_#96CB02_16.78%,_#FAB222_73.53%)]">
+            <div className="w-[12rem] h-[12rem] md:w-[15.5rem] md:h-[15.5rem] flex justify-center items-center rounded-full mx-auto bg-[linear-gradient(281.71deg,_#96CB02_16.78%,_#FAB222_73.53%)] mt-[2.4rem] md:mt-[3rem] [&_p]:font-inter">
                 <img src={founderImg} alt="founderImg"  className="w-[10.5rem] h-[10.5rem] md:w-[13.5rem] md:h-[13.5rem] rounded-full"/>
             </div>
             {/* <div>

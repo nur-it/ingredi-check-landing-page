@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import vector1 from "../../../assets/images/aboutContactImages/vector1.png";
 import vector2 from "../../../assets/images/aboutContactImages/vector2.png";
 import vector3 from "../../../assets/images/aboutContactImages/vector3.png";
@@ -11,11 +12,11 @@ const AboutContact = () => {
             Get in touch
           </h3>
           <div className="max-w-[87.8rem] mx-auto">
-            <p className="text-white mt-[2.17rem] md:mt-[3.2rem] text-[1.4rem] md:text-[2rem] leading-[2.02rem] md:leading-[3.2rem]">
+            <p className="text-white mt-[2.17rem] md:mt-[3.2rem] text-[1.4rem] md:text-[2rem] leading-[3.2rem]">
               To get in contact for any other reason (feedback, issues,
-              high-fives), send me a brief message at hello@ingredicheck.co
+              high-fives), send me a brief message at <Link to='mailto:hello@ingredicheck.co' className="underline">hello@ingredicheck.co</Link>
             </p>
-            <p className="text-white mt-[2.17rem] md:mt-[3.2rem] text-[1.4rem] md:text-[2rem] leading-[2.02rem] md:leading-[3.2rem]">
+            <p className="text-white mt-[2.17rem] md:mt-[3.2rem] text-[1.4rem] md:text-[2rem] leading-[3.2rem]">
               I'd love to hear from you! Every little detail matters, so please
               don't hesitate to reach out!
             </p>

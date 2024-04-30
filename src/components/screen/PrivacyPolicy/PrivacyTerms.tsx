@@ -8,7 +8,7 @@ const PrivacyTerms = () => {
           {/* term 1 */}
           <div>
             <h3>I. Introduction</h3>
-            <p>
+            <p className="mt-[3rem]">
               Welcome to blaz.ai. We are dedicated to maintaining the privacy
               and protection of your personal data. This Privacy Notice outlines
               the information we collect, how we use it, and your rights
@@ -20,7 +20,7 @@ const PrivacyTerms = () => {
           {/* term 2*/}
           <div>
             <h3>II. Information We Collect</h3>
-            <p>
+            <p className="mt-[3rem]">
               While using blaz.ai, we may collect the following information:
             </p>
             <div className="flex items-center gap-x-[0.8rem]">
@@ -58,7 +58,7 @@ const PrivacyTerms = () => {
           {/* term 3 */}
           <div>
             <h3>III. How We Use Your Information</h3>
-            <p>We use the information we collect to: </p>
+            <p className="mt-[3rem]">We use the information we collect to: </p>
             <div className="flex items-center gap-x-[0.8rem]">
               <GoDotFill className="text-dark" />
               <p>Improve and personalize our services.</p>
@@ -90,7 +90,7 @@ const PrivacyTerms = () => {
           {/* term 4 */}
           <div>
             <h3>IV. Data Protection</h3>
-            <p>
+            <p className="mt-[3rem]">
               We implement robust security measures to protect your data,
               including [specific security methods, e.g., SSL, encryption,
               regular vulnerability assessments].
@@ -101,7 +101,7 @@ const PrivacyTerms = () => {
           {/* term 5 */}
           <div>
             <h3>V. Cookies</h3>
-            <p>
+            <p className="mt-[3rem]">
               We utilize cookies to enhance user experience, track site usage,
               and facilitate other features. You can choose to disable cookies
               through your browser settings, but doing so may affect some
@@ -113,7 +113,7 @@ const PrivacyTerms = () => {
           {/* term 6 */}
           <div>
             <h3>VI. Third-Party Services</h3>
-            <p>
+            <p className="mt-[3rem]">
               Blaz.ai may integrate with third-party services to enhance its
               functionalities. These third-party services have their own privacy
               policies, and we encourage users to review them.
@@ -124,7 +124,7 @@ const PrivacyTerms = () => {
           {/* term 7 */}
           <div>
             <h3>VII. Your Rights</h3>
-            <p>
+            <p className="mt-[3rem]">
               Depending on your jurisdiction, you may have rights related to
               your personal information. This can include the right to access,
               correct, or delete your data. If you wish to exercise any of these
@@ -136,7 +136,7 @@ const PrivacyTerms = () => {
           {/* term 8 */}
           <div>
             <h3>VIII. Changes to this Notice</h3>
-            <p>
+            <p className="mt-[3rem]">
               We may periodically update this Privacy Notice. When changes are
               significant, we will notify users through the platform or via
               email.
@@ -147,7 +147,7 @@ const PrivacyTerms = () => {
           {/* term 9 */}
           <div>
             <h3>IX. Contact Us</h3>
-            <p>
+            <p className="mt-[3rem]">
               For any concerns or questions about this Privacy Notice or your
               data, please reach out to us at:
             </p>
